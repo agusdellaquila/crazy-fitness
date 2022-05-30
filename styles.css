@@ -32,3 +32,34 @@ body {
     justify-content: center;
     align-items: center;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+}
+.marg {
+    margin-top: 1rem;
+}
+@media (min-width: 1024px){
+    .footerContainer {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .footer {
+        width: 100%;
+    }
+    .marg {
+        margin-top: 2rem;
+    }
+}
