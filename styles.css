@@ -32,6 +32,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.dFlexCol {
+    flex-direction: column;
+}
 .items {
     display: flex;
     flex-direction: column;
