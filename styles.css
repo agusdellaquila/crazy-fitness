@@ -32,6 +32,16 @@ body {
     justify-content: center;
     align-items: center;
 }
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.items img {
+    width: 450px;
+    height: 350px;
+}
 .footer {
     display: flex;
     flex-direction: column;
@@ -49,7 +59,21 @@ body {
 .marg {
     margin-top: 1rem;
 }
+.particularProds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.particularProds img {
+    width: 200px;
+    margin: 10px 0px;
+}
 @media (min-width: 1024px){
+    .items {
+        flex-direction: row;
+    }
     .footerContainer {
         width: 100%;
         flex-direction: row;
@@ -61,5 +85,15 @@ body {
     }
     .marg {
         margin-top: 2rem;
+    }
+    .particularProds {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+    .particularProds img {
+        width: 300px;
+        margin: 0 20px;
     }
 }
